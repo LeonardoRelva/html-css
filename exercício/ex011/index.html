@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em diversos dispositivos diferentes ou simplismente aumente ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto Flexível"> 
+    </picture>
+    <p>O MAX-WIDTH é usada para definir a largura máxima que um elemento pode ter. EXEMPLO: max-width: 1000px <em>(fala que a imagem so irá ficar até 1000 de largura, se aumentar mais a largura irá carregar uma outra imagem)</em></p>
+    <hr>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5 <strong>(TAG AUDIO)</strong></p>
+    
+    <audio preload="metadata" controls loop>
+        <source src="midia/Funky Carioca - Quincas Moreira.mp3" type="audio/mpeg">
+    </audio>
+    <audio>
+        <source src="" type="">
+    </audio>
+     
+    <p>Aqui está o codigo para se colocar audio <strong>(ou usa a tag audio ou coloca a tag audio + source:src)</strong></p>
+
+    <pre>
+        <p>
+        &lt;audio src=""&gt;&lt;/audio&gt;
+        </p>
+    </pre>
+
+
+   <pre>
+       <p> 
+        &lt;audio&gt;
+                 &lt;source src="" type="" &gt;
+        &lt;/audio&gt;
+       </p>
+   </pre>
+</body>
+</html>

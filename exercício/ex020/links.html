@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: darkorange;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial::before {
+            content: '⇒ ';
+            font-weight: bold;
+        }
+
+        .especial::after {
+            content: ' ⇐';
+            font-weight: bold;
+        }
+
+        .especial {
+            background-color: rgb(226, 132, 132);
+        }
+
+        p:hover {
+            color: lightgreen;
+        }
+
+        p::before {
+            content: '⇒ ';
+            font-weight: bold;
+        }
+
+        p::after {
+            content: ' ⇐';
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara">Reporsitório do GitHub</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" class="especial">Site do Curso em Video</a></li>
+    </ul>
+    <h1>Testando Seta</h1>
+    <p>Passe o mouse aqui</p>
+</body>
+</html>

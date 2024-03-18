@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(243, 158, 158);
+}
+
+h1 {
+    color: rgb(199, 241, 136);
+}
+
+h2 {
+    color: rgb(50, 150, 150);
+}
+
+p {
+    text-align: justify;
+}
+
+#principal {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(102, 102, 235);
+}
+
+.titulo {
+    color: blueviolet;
+    text-align: center;
+}
+
+.sub1 {
+    color: rgb(58, 131, 58);
+}
+
+.sub2 {
+    color: rgb(211, 211, 59);
+}
+
+.sub3 {
+    color: red;
+}

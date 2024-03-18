@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* 
+    EM HTML É ID    = EM CSS É #    (ÚNICO)
+    EM HTML É CLASS = EM CSS É .    (MúLTIPLO)
+*/
+
+body {
+    background-color: rgb(184, 247, 168);
+}
+
+h1 {
+    color: rgb(51, 114, 35);
+}
+
+h2 {
+    color: rgb(46, 66, 41);
+}
+
+h1#principal {
+    color: blue;
+    background-color: #fff;
+    text-align: center;    /* irá colocar css apenas nele (identificando) */
+}
+
+.basico {
+    color: rgb(50, 138, 165);
+}
+
+.intermediario {
+    color: rgb(167, 167, 59);
+}
+
+.avancado {
+    color: rgb(167, 59, 59);
+    font-weight: bold;
+}
